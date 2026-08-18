@@ -30,7 +30,7 @@ jobs:
 
     - name: Run Lead Scraper
       run: |
-        python main.py
+        python first_bunch.py
 
     - name: Upload Scraped CSV Data as Artifact
       uses: actions/upload-artifact@v4
